@@ -200,7 +200,7 @@
 \ProcessOptions
 
 \ifx\Dis@substylefile\@empty
-  \ifDis@bachelor   \renewcommand*{\Dis@substylefile}{bachelor.rtx}\fi
+  \ifDis@bachelor   \renewcommand*{\Dis@substylefile}{cls/bachelor.rtx}\fi
   \ifDis@specialist \renewcommand*{\Dis@substylefile}{specialist.rtx}\fi
   \ifDis@master     \renewcommand*{\Dis@substylefile}{master.rtx}\fi
   \ifDis@candidate  \renewcommand*{\Dis@substylefile}{candidate.rtx}\fi
@@ -1217,7 +1217,7 @@
 \fi
 
 
-\input{titledefs.rtx}
+\input{cls/titledefs.rtx}
 
 \if@titlepage
   \newcommand\titlefont{\Large\bfseries}

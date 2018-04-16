@@ -71,7 +71,7 @@
   \@mastertitletrue
 }
 \ifx\csse@titlefile\@empty
-  \if@mastertitle \renewcommand*{\csse@titlefile}{csse-master.rtx} \fi
+  \if@mastertitle \renewcommand*{\csse@titlefile}{cls/csse-master.rtx} \fi
 \fi
 \AtEndOfClass{\input{\csse@titlefile}}
 
